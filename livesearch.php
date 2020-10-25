@@ -17,7 +17,7 @@
                if ($hint == "") {
                   $hint = "<a href = '" . $z->item(0)->childNodes->item(0)->nodeValue . "' target='_blank'>" . 
                   $y->item(0)->childNodes->item(0)->nodeValue . "</a>";
-               }else {
+               } else {
                   $hint = $hint . "<br/><a href = '" . 
                   $z->item(0)->childNodes->item(0)->nodeValue . "' target='_blank'>" . 
                   $y->item(0)->childNodes->item(0)->nodeValue . "</a>";
